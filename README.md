@@ -10,7 +10,7 @@
 
 ## 📁 Dataset
 
-The training input consists of ERA5 reanalysis data<sup><a href="#footnote1">1</a></sup> paired with altitude information from the U.S. Geological Survey 3D Elevation Program DEM<sup><a href="#footnote2">2</a></sup>.
+The training input consists of ERA5 reanalysis data <sup><a href="#footnote1">1</a></sup> paired with altitude information from the U.S. Geological Survey 3D Elevation Program DEM <sup><a href="#footnote2">2</a></sup>.
 
 - <b>Variable</b>: 2-meter air temperature (T2m)
 - <b>Period</b>: 2000 – 2020
