@@ -6,7 +6,7 @@
     <b>October 2025</b>
 </p>
 
-<p align="justify">Global Climate Models (GCMs) provide valuable climate projections, but operate at coarse spatial resolutions, limiting their usefulness for local-scale applications. Downscaling techniques are therefore essential to bridge this gap. This study investigates how the integration of elevation data can improve the performance of CNN-based architecture deep learning models to downscale the near-surface air temperature (T2m) from a 0.5°×0.5° grid to a 0.25°×0.25° resolution. Different elevation data integration strategies are evaluated to demonstrate their impact on downscaling effectiveness, highlighting the role of terrain-related features in refining temperature estimates.>/p>
+<p align="justify">Global Climate Models (GCMs) provide valuable climate projections, but operate at coarse spatial resolutions, limiting their usefulness for local-scale applications. Downscaling techniques are therefore essential to bridge this gap. This study investigates how the integration of elevation data can improve the performance of CNN-based architecture deep learning models to downscale the near-surface air temperature (T2m) from a 0.5°×0.5° grid to a 0.25°×0.25° resolution. Different elevation data integration strategies are evaluated to demonstrate their impact on downscaling effectiveness, highlighting the role of terrain-related features in refining temperature estimates.</p>
 
 ## 📁 Dataset
 
@@ -20,7 +20,9 @@ The training input consists of ERA5 reanalysis data<sup><a href="#footnote1">1</
 
 ## ⚙️ Preprocessing
 
-To create a controlled downscaling problem, the native 0.25-degree data were upscaled to 0.5 degrees, and the model was then tasked with reconstructing the original high resolution. This approach is model-agnostic, as it does not rely on a specific low-resolution forecast model as input. Instead, high-resolution reanalysis data are artificially degraded to generate the low-resolution input, thereby avoiding the biases of any particular model. So, the preprocessing included the following steps:
+<p align="justify">To create a controlled downscaling problem, the native 0.25-degree data were upscaled to 0.5 degrees, and the model was then tasked with reconstructing the original high resolution. This approach is model-agnostic, as it does not rely on a specific low-resolution forecast model as input. Instead, high-resolution reanalysis data are artificially degraded to generate the low-resolution input, thereby avoiding the biases of any particular model.</p> 
+
+So, the preprocessing included the following steps:
 
 1. <b>Upscaling</b>: Bicubic interpolation to match target resolution (from 0.25 ° x 0.25 ° to 0.5 ° x 0.5 °)
 2. <b>Normalization</b>: Z-score standardization
@@ -51,7 +53,7 @@ In addition, a combination of these two approaches was also explored.
 
 ## 🧪 Results
 
-To summarize the results visually, these maps display the MAE across the entire domain for both the non–elevation-aware model and the best elevation- and slope-aware model. Errors are notably higher in regions with complex terrain, such as mountainous and coastal areas. To quantify the impact of geospatial data integration on model performance in challenging regions, the MAE was calculated for the upper 10th percentile of pixels with the largest errors.
+<p align="justify">To summarize the results visually, these maps display the MAE across the entire domain for both the non–elevation-aware model and the best elevation- and slope-aware model. Errors are notably higher in regions with complex terrain, such as mountainous and coastal areas. To quantify the impact of geospatial data integration on model performance in challenging regions, the MAE was calculated for the upper 10th percentile of pixels with the largest errors.</p>
 
 ![](./images/Results.png)
 
