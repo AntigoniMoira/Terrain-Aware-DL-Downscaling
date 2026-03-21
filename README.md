@@ -15,7 +15,7 @@ The training input consists of ERA5 reanalysis data <sup><a href="#footnote1">1<
 
 - <b>Variable</b>: 2-meter air temperature (T2m)
 - <b>Period</b>: 2000 – 2020
-- <b>Temporal resolution</b>: 6-hourly (00:00, 06:00, 12:00, 18:00 UTC)
+- <b>Temporal resolution</b>: 6-hours (00:00, 06:00, 12:00, 18:00 UTC)
 - <b>Spatial domain</b>: Latitude 80° N to 0°, Longitude 60° W to 85° E
 
 
