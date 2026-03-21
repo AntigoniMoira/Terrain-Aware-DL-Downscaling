@@ -3,7 +3,7 @@
 <p align="center">
     <b>Elevation Data Integration Approaches for Deep Learning-Based <br> 2-m Temperature Downscaling</b> <br>
     Project for AI-driven Data Engineering and Reusability for Earth and Space Sciences <br> <a href="https://dares25.github.io/">(DARES 2025) Workshop</a><br>
-    <b>October 2025</b>
+    <b>October 2025</b><br>
     <a href="https://ceur-ws.org/Vol-4128/">Volume 4128 of the CEUR Workshop Proceedings</a>
 </p>
 
