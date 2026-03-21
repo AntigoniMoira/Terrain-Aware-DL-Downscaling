@@ -4,6 +4,7 @@
     <b>Elevation Data Integration Approaches for Deep Learning-Based <br> 2-m Temperature Downscaling</b> <br>
     Project for AI-driven Data Engineering and Reusability for Earth and Space Sciences <br> <a href="https://dares25.github.io/">(DARES 2025) Workshop</a><br>
     <b>October 2025</b>
+    <a href="https://ceur-ws.org/Vol-4128/">Volume 4128 of the CEUR Workshop Proceedings</a>
 </p>
 
 <p align="justify">Global Climate Models (GCMs) provide valuable climate projections, but operate at coarse spatial resolutions, limiting their usefulness for local-scale applications. Downscaling techniques are therefore essential to bridge this gap. This study investigates how the integration of elevation data can improve the performance of CNN-based architecture deep learning models to downscale the near-surface air temperature (T2m) from a 0.5°×0.5° grid to a 0.25°×0.25° resolution. Different elevation data integration strategies are evaluated to demonstrate their impact on downscaling effectiveness, highlighting the role of terrain-related features in refining temperature estimates.</p>
